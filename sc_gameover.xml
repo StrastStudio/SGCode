@@ -1,0 +1,16 @@
+<SCENE id="SC_GAMEOVER" put_prev="1">
+    <ADDPICTURE id="PicSCCMNFg" x="0" y="0"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpPass" x="1772" y="13"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpHover" x="1772" y="13"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpPress" x="1772" y="13"/>
+    <PICTURE id="PicSCGOBg" x="0" y="0" z="1000"/>
+    <PICTURE id="PicSCGOBtnRetryPass" x="754" y="411" z="500"/>
+    <PICTURE id="PicSCGOBtnRetryHover" x="754" y="411" z="500"/>
+    <PICTURE id="PicSCGOBtnRetryPress" x="754" y="422" z="500"/>
+    <PICTURE id="PicSCGOBtnMenuPass" x="767" y="599" z="500"/>
+    <PICTURE id="PicSCGOBtnMenuHover" x="767" y="599" z="500"/>
+    <PICTURE id="PicSCGOBtnMenuPress" x="767" y="599" z="500"/>
+    <TEXT id="TextSCGOScore" ttf="0" font="FontGreenGLDDS" align="CENTER" text="Счёт: 0; Рекорд: 0" x="960" y="30" z="0"/>
+    <BUTTON id="BtnSCGORetry" soundH="SndHover" soundP="SndClick" tex="PicSCGOBtnRetryPass" tex_hover="PicSCGOBtnRetryHover" tex_press="PicSCGOBtnRetryPress" cursor="CsrNormal"/>
+    <BUTTON id="BtnSCGOMenu" soundH="SndHover" soundP="SndClick" tex="PicSCGOBtnMenuPass" tex_hover="PicSCGOBtnMenuHover" tex_press="PicSCGOBtnMenuPress" cursor="CsrNormal"/>
+</SCENE>

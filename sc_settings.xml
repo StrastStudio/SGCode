@@ -1,0 +1,15 @@
+<SCENE id="SC_SETTINGS" put_prev="1">
+    <ADDPICTURE id="PicSCCMNFg" x="0" y="0"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpPass" x="1772" y="13"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpHover" x="1772" y="13"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpPress" x="1772" y="13"/>
+    <PICTURE id="PicSCSETBg" x="0" y="0" z="1000"/>
+    <PICTURE id="PicSCSETBtnBackPass" x="757" y="754" z="500"/>
+    <PICTURE id="PicSCSETBtnBackHover" x="757" y="754" z="500"/>
+    <PICTURE id="PicSCSETBtnBackPress" x="757" y="765" z="500"/>
+    <PICTURE id="PicSCSETScrBg" x="0" y="0" z="100" flags="0"/>
+    <PICTURE id="PicSCSETScrFg" x="0" y="0" z="0" flags="0"/>
+    <BUTTON id="BtnSCSETBack" soundH="SndHover" soundP="SndClick" tex="PicSCSETBtnBackPass" tex_hover="PicSCSETBtnBackHover" tex_press="PicSCSETBtnBackPress" cursor="CsrNormal"/>
+    <SCROLLER id="ScrSCSETMusic" Bg="PicSCSETScrBg" Pointer="PicSCSETScrFg" Value="0" x="704" y="320"/>
+    <SCROLLER id="ScrSCSETSound" Bg="PicSCSETScrBg" Pointer="PicSCSETScrFg" Value="0" x="704" y="541"/>
+</SCENE>

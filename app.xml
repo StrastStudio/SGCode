@@ -1,0 +1,12 @@
+<PROJECT title="Сортировка мусора 2025" width="Sw" height="Sh" start="SC_INTRO" fullscreen="1" sensitivity="1">
+    <SCENE id="SC_COMMON" file="sc_common.xml"/>
+    <SCENE id="SC_01" file="sc_01.xml"/>
+    <SCENE id="SC_02" file="sc_02.xml"/>
+    <SCENE id="SC_PAUSE" file="sc_pause.xml"/>
+    <SCENE id="SC_SETTINGS" file="sc_settings.xml"/>
+    <SCENE id="SC_GAMEOVER" file="sc_gameover.xml"/>
+    <SCENE id="SC_TITELS" file="sc_titels.xml"/>
+    <SCENE id="SC_INTRO" file="sc_intro.xml"/>
+    <SCENE id="SC_HELP" file="sc_help.xml"/>
+    <SCENE id="SC_EXIT" file="sc_exit.xml"/>
+</PROJECT>

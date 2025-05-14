@@ -1,0 +1,24 @@
+<SCENE id="SC_02">
+    <ADDPICTURE id="PicSCCMNFg" x="0" y="0"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpPass" x="1772" y="13"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpHover" x="1772" y="13"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpPress" x="1772" y="13"/>
+    <PICTURE id="PicSC02Bg" x="0" y="0" z="1000"/>
+    <PICTURE id="PicSC02BtnExitPass" x="761" y="738" z="500"/>
+    <PICTURE id="PicSC02BtnExitHover" x="761" y="738" z="500"/>
+    <PICTURE id="PicSC02BtnExitPress" x="761" y="749" z="500"/>
+    <PICTURE id="PicSC02BtnTitelsPass" x="761" y="572" z="500"/>
+    <PICTURE id="PicSC02BtnTitelsHover" x="761" y="572" z="500"/>
+    <PICTURE id="PicSC02BtnTitelsPress" x="761" y="583" z="500"/>
+    <PICTURE id="PicSC02BtnPlayPass" x="761" y="237" z="500"/>
+    <PICTURE id="PicSC02BtnPlayHover" x="761" y="237" z="500"/>
+    <PICTURE id="PicSC02BtnPlayPress" x="761" y="248" z="500"/>
+    <PICTURE id="PicSC02BtnSettingsPass" x="648" y="404" z="500"/>
+    <PICTURE id="PicSC02BtnSettingsHover" x="648" y="404" z="500"/>
+    <PICTURE id="PicSC02BtnSettingsPress" x="648" y="415" z="500"/>
+    <BUTTON id="BtnSC02Exit" soundH="SndHover" soundP="SndClick" tex="PicSC02BtnExitPass" tex_hover="PicSC02BtnExitHover" tex_press="PicSC02BtnExitPress" cursor="CsrNormal"/>
+    <BUTTON id="BtnSC02Titels" soundH="SndHover" soundP="SndClick" tex="PicSC02BtnTitelsPass" tex_hover="PicSC02BtnTitelsHover" tex_press="PicSC02BtnTitelsPress" cursor="CsrNormal"/>
+    <BUTTON id="BtnSC02Play" soundH="SndHover" soundP="SndClick" tex="PicSC02BtnPlayPass" tex_hover="PicSC02BtnPlayHover" tex_press="PicSC02BtnPlayPress" cursor="CsrNormal"/>
+    <BUTTON id="BtnSC02Settings" soundH="SndHover" soundP="SndClick" tex="PicSC02BtnSettingsPass" tex_hover="PicSC02BtnSettingsHover" tex_press="PicSC02BtnSettingsPress" cursor="CsrNormal"/>
+    <MUSIC file="MUSIC/SndMusicSC02.wav"/>
+</SCENE>

@@ -1,0 +1,6 @@
+<SCENE id="SC_TITELS">
+    <ADDPICTURE id="PicSCCMNFg" x="0" y="0"/>
+    <PICTURE id="PicSCTITBg" x="0" y="0" z="1000"/>
+    <PICTURE id="PicSCTITText" x="405" y="1080" z="500"/>
+    <PICTURE id="PicSCTITFg" x="0" y="0" z="0"/>
+</SCENE>

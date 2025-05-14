@@ -1,0 +1,310 @@
+<SCENE id="SC_01">
+    <ADDPICTURE id="PicSCCMNBtnHelpPass" x="1772" y="13"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpHover" x="1772" y="13"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpPress" x="1772" y="13"/>
+    <PICTURE id="PicSC01Bg" x="0" y="0" z="1000"/>
+    <PICTURE id="PicSC01Fg" x="0" y="0" z="850"/>
+    <PICTURE id="PicSC01RibbonFg" x="126" y="425" z="800"/>
+    <PICTURE id="PicSC01RibbonBg" x="128" y="429" z="900"/>
+    <PICTURE id="PicSC01Light" x="0" y="0" z="840"/>
+    <PICTURE id="PicSC01Garbage1" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage2" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage3" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage4" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage5" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage6" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage7" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage8" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage9" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage10" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage11" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage12" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage13" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage14" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage15" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage16" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage17" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage18" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage19" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage20" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01Garbage21" x="0" y="441" z="855" flags="0"/>
+    <PICTURE id="PicSC01GarbageUI" x="124" y="9" z="0"/>
+    <ANI id="ASC01ContainerPaper" x="973" y="750" z="500">
+        <STATIC id="SSC01CPDef"/>
+        <STATIC id="SSC01CPOpen"/>
+        <MOVEMENT id="MVSC01CPOpen" file="1" speed="0.7" PrevX="5" PrevY="57">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="-1" sound="SndSC01ContainerOpen"/>
+            <PHASE id="2" x="0" y="-4"/>
+            <PHASE id="3" x="0" y="-11"/>
+            <PHASE id="4" x="0" y="-17"/>
+            <PHASE id="5" x="0" y="-20"/>
+            <PHASE id="6" x="0" y="-22"/>
+            <PHASE id="7" x="0" y="-24"/>
+            <PHASE id="8" x="0" y="-25"/>
+            <PHASE id="9" x="0" y="-26"/>
+            <PHASE id="10" x="0" y="-27"/>
+            <PHASE id="11" x="0" y="-27"/>
+            <PHASE id="12" x="0" y="-28"/>
+            <PHASE id="13" x="0" y="-28"/>
+            <PHASE id="14" x="0" y="-28"/>
+        </MOVEMENT>
+        <MOVEMENT id="MVSC01CPClose" file="1" speed="0.7" PrevX="5" PrevY="29">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="0" sound="SndSC01ContainerClose"/>
+            <PHASE id="2" x="0" y="0"/>
+            <PHASE id="3" x="0" y="0"/>
+            <PHASE id="4" x="0" y="1"/>
+            <PHASE id="5" x="0" y="1"/>
+            <PHASE id="6" x="0" y="2"/>
+            <PHASE id="7" x="0" y="3"/>
+            <PHASE id="8" x="0" y="4"/>
+            <PHASE id="9" x="0" y="5"/>
+            <PHASE id="10" x="0" y="7"/>
+            <PHASE id="11" x="0" y="11"/>
+            <PHASE id="12" x="0" y="16"/>
+            <PHASE id="13" x="0" y="23"/>
+            <PHASE id="14" x="0" y="27"/>
+        </MOVEMENT>
+    </ANI>
+    <ANI id="ASC01ContainerWaste" x="1152" y="750" z="500">
+        <STATIC id="SSC01CWDef"/>
+        <STATIC id="SSC01CWOpen"/>
+        <MOVEMENT id="MVSC01CWOpen" file="1" speed="0.7" PrevX="5" PrevY="57">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="-1" sound="SndSC01ContainerOpen"/>
+            <PHASE id="2" x="0" y="-4"/>
+            <PHASE id="3" x="0" y="-11"/>
+            <PHASE id="4" x="0" y="-17"/>
+            <PHASE id="5" x="0" y="-20"/>
+            <PHASE id="6" x="0" y="-23"/>
+            <PHASE id="7" x="0" y="-24"/>
+            <PHASE id="8" x="0" y="-26"/>
+            <PHASE id="9" x="0" y="-26"/>
+            <PHASE id="10" x="0" y="-27"/>
+            <PHASE id="11" x="0" y="-28"/>
+            <PHASE id="12" x="0" y="-28"/>
+            <PHASE id="13" x="0" y="-28"/>
+            <PHASE id="14" x="0" y="-28"/>
+        </MOVEMENT>
+        <MOVEMENT id="MVSC01CWClose" file="1" speed="0.7" PrevX="5" PrevY="29">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="0" sound="SndSC01ContainerClose"/>
+            <PHASE id="2" x="0" y="0"/>
+            <PHASE id="3" x="0" y="0"/>
+            <PHASE id="4" x="0" y="0"/>
+            <PHASE id="5" x="0" y="1"/>
+            <PHASE id="6" x="0" y="1"/>
+            <PHASE id="7" x="0" y="2"/>
+            <PHASE id="8" x="0" y="3"/>
+            <PHASE id="9" x="0" y="5"/>
+            <PHASE id="10" x="0" y="7"/>
+            <PHASE id="11" x="0" y="11"/>
+            <PHASE id="12" x="0" y="16"/>
+            <PHASE id="13" x="0" y="23"/>
+            <PHASE id="14" x="0" y="27"/>
+        </MOVEMENT>
+    </ANI>
+    <ANI id="ASC01ContainerFood" x="1331" y="750" z="500">
+        <STATIC id="SSC01CFDef"/>
+        <STATIC id="SSC01CFOpen"/>
+        <MOVEMENT id="MVSC01CFOpen" file="1" speed="0.7" PrevX="5" PrevY="57">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="-1" sound="SndSC01ContainerOpen"/>
+            <PHASE id="2" x="0" y="-4"/>
+            <PHASE id="3" x="0" y="-11"/>
+            <PHASE id="4" x="0" y="-17"/>
+            <PHASE id="5" x="0" y="-20"/>
+            <PHASE id="6" x="0" y="-23"/>
+            <PHASE id="7" x="0" y="-24"/>
+            <PHASE id="8" x="0" y="-26"/>
+            <PHASE id="9" x="0" y="-26"/>
+            <PHASE id="10" x="0" y="-27"/>
+            <PHASE id="11" x="0" y="-28"/>
+            <PHASE id="12" x="0" y="-28"/>
+            <PHASE id="13" x="0" y="-28"/>
+            <PHASE id="14" x="0" y="-28"/>
+        </MOVEMENT>
+        <MOVEMENT id="MVSC01CFClose" file="1" speed="0.7" PrevX="5" PrevY="29">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="0" sound="SndSC01ContainerClose"/>
+            <PHASE id="2" x="0" y="0"/>
+            <PHASE id="3" x="0" y="0"/>
+            <PHASE id="4" x="0" y="0"/>
+            <PHASE id="5" x="0" y="1"/>
+            <PHASE id="6" x="0" y="1"/>
+            <PHASE id="7" x="0" y="2"/>
+            <PHASE id="8" x="0" y="3"/>
+            <PHASE id="9" x="0" y="5"/>
+            <PHASE id="10" x="0" y="7"/>
+            <PHASE id="11" x="0" y="11"/>
+            <PHASE id="12" x="0" y="16"/>
+            <PHASE id="13" x="0" y="23"/>
+            <PHASE id="14" x="0" y="27"/>
+        </MOVEMENT>
+    </ANI>
+    <ANI id="ASC01ContainerIron" x="794" y="750" z="500">
+        <STATIC id="SSC01CIDef"/>
+        <STATIC id="SSC01CIOpen"/>
+        <MOVEMENT id="MVSC01CIOpen" file="1" speed="0.7" PrevX="5" PrevY="57">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="-1" sound="SndSC01ContainerOpen"/>
+            <PHASE id="2" x="0" y="-4"/>
+            <PHASE id="3" x="0" y="-11"/>
+            <PHASE id="4" x="0" y="-17"/>
+            <PHASE id="5" x="0" y="-20"/>
+            <PHASE id="6" x="0" y="-23"/>
+            <PHASE id="7" x="0" y="-24"/>
+            <PHASE id="8" x="0" y="-26"/>
+            <PHASE id="9" x="0" y="-26"/>
+            <PHASE id="10" x="0" y="-27"/>
+            <PHASE id="11" x="0" y="-28"/>
+            <PHASE id="12" x="0" y="-28"/>
+            <PHASE id="13" x="0" y="-28"/>
+            <PHASE id="14" x="0" y="-28"/>
+        </MOVEMENT>
+        <MOVEMENT id="MVSC01CIClose" file="1" speed="0.7" PrevX="5" PrevY="29">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="0" sound="SndSC01ContainerClose"/>
+            <PHASE id="2" x="0" y="0"/>
+            <PHASE id="3" x="0" y="0"/>
+            <PHASE id="4" x="0" y="0"/>
+            <PHASE id="5" x="0" y="1"/>
+            <PHASE id="6" x="0" y="1"/>
+            <PHASE id="7" x="0" y="2"/>
+            <PHASE id="8" x="0" y="3"/>
+            <PHASE id="9" x="0" y="5"/>
+            <PHASE id="10" x="0" y="7"/>
+            <PHASE id="11" x="0" y="11"/>
+            <PHASE id="12" x="0" y="16"/>
+            <PHASE id="13" x="0" y="23"/>
+            <PHASE id="14" x="0" y="27"/>
+        </MOVEMENT>
+    </ANI>
+    <ANI id="ASC01ContainerGlass" x="615" y="750" z="500">
+        <STATIC id="SSC01CGDef"/>
+        <STATIC id="SSC01CGOpen"/>
+        <MOVEMENT id="MVSC01CGOpen" file="1" speed="0.7" PrevX="5" PrevY="57">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="-1" sound="SndSC01ContainerOpen"/>
+            <PHASE id="2" x="0" y="-4"/>
+            <PHASE id="3" x="0" y="-11"/>
+            <PHASE id="4" x="0" y="-17"/>
+            <PHASE id="5" x="0" y="-20"/>
+            <PHASE id="6" x="0" y="-23"/>
+            <PHASE id="7" x="0" y="-24"/>
+            <PHASE id="8" x="0" y="-26"/>
+            <PHASE id="9" x="0" y="-26"/>
+            <PHASE id="10" x="0" y="-27"/>
+            <PHASE id="11" x="0" y="-28"/>
+            <PHASE id="12" x="0" y="-28"/>
+            <PHASE id="13" x="0" y="-28"/>
+            <PHASE id="14" x="0" y="-28"/>
+        </MOVEMENT>
+        <MOVEMENT id="MVSC01CGClose" file="1" speed="0.7" PrevX="5" PrevY="29">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="0" sound="SndSC01ContainerClose"/>
+            <PHASE id="2" x="0" y="0"/>
+            <PHASE id="3" x="0" y="0"/>
+            <PHASE id="4" x="0" y="0"/>
+            <PHASE id="5" x="0" y="1"/>
+            <PHASE id="6" x="0" y="1"/>
+            <PHASE id="7" x="0" y="2"/>
+            <PHASE id="8" x="0" y="3"/>
+            <PHASE id="9" x="0" y="5"/>
+            <PHASE id="10" x="0" y="7"/>
+            <PHASE id="11" x="0" y="11"/>
+            <PHASE id="12" x="0" y="16"/>
+            <PHASE id="13" x="0" y="23"/>
+            <PHASE id="14" x="0" y="27"/>
+        </MOVEMENT>
+    </ANI>
+    <ANI id="ASC01ContainerPlastic" x="436" y="750" z="500">
+        <STATIC id="SSC01CPlDef"/>
+        <STATIC id="SSC01CPlOpen"/>
+        <MOVEMENT id="MVSC01CPlOpen" file="1" speed="0.7" PrevX="5" PrevY="57">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="-1" sound="SndSC01ContainerOpen"/>
+            <PHASE id="2" x="0" y="-4"/>
+            <PHASE id="3" x="0" y="-11"/>
+            <PHASE id="4" x="0" y="-17"/>
+            <PHASE id="5" x="0" y="-20"/>
+            <PHASE id="6" x="0" y="-23"/>
+            <PHASE id="7" x="0" y="-24"/>
+            <PHASE id="8" x="0" y="-26"/>
+            <PHASE id="9" x="0" y="-26"/>
+            <PHASE id="10" x="0" y="-27"/>
+            <PHASE id="11" x="0" y="-28"/>
+            <PHASE id="12" x="0" y="-28"/>
+            <PHASE id="13" x="0" y="-28"/>
+            <PHASE id="14" x="0" y="-28"/>
+        </MOVEMENT>
+        <MOVEMENT id="MVSC01CPlClose" file="1" speed="0.7" PrevX="5" PrevY="29">
+            <PHASE id="0" x="0" y="0"/>
+            <PHASE id="1" x="0" y="0" sound="SndSC01ContainerClose"/>
+            <PHASE id="2" x="0" y="0"/>
+            <PHASE id="3" x="0" y="0"/>
+            <PHASE id="4" x="0" y="0"/>
+            <PHASE id="5" x="0" y="1"/>
+            <PHASE id="6" x="0" y="1"/>
+            <PHASE id="7" x="0" y="2"/>
+            <PHASE id="8" x="0" y="3"/>
+            <PHASE id="9" x="0" y="5"/>
+            <PHASE id="10" x="0" y="7"/>
+            <PHASE id="11" x="0" y="11"/>
+            <PHASE id="12" x="0" y="16"/>
+            <PHASE id="13" x="0" y="23"/>
+            <PHASE id="14" x="0" y="27"/>
+        </MOVEMENT>
+    </ANI>
+    <TEXT id="TextSC01DebugRS" ttf="0" font="FontGreenGLDDS" align="RIGHTBOTTOM" text="Скорость ленты: 2" x="1920" y="900" z="0" flags="0"/>
+    <TEXT id="TextSC01DebugGS" ttf="0" font="FontGreenGLDDS" align="RIGHTBOTTOM" text="Задержка спавна: 0" x="1920" y="960" z="0" flags="0"/>
+    <TEXT id="TextSC01DebugGC" ttf="0" font="FontGreenGLDDS" align="RIGHTBOTTOM" text="Кол-во мусора: 0" x="1920" y="1020" z="0" flags="0"/>
+    <TEXT id="TextSC01FindChickens" ttf="0" font="FontGreenGLDDS" align="RIGHTBOTTOM" text="Найдено куриц: 0" x="1920" y="1080" z="0" flags="0"/>
+    <TEXT id="TextSC01Start" ttf="0" font="FontOrangeGD" align="CENTER" text="3" x="960" y="540" z="-1000"/>
+    <TEXT id="TextSC01SelGarbage" ttf="0" font="FontGreenGLDDS" align="RIGHT" text="" x="1920" y="120" z="0"/>
+    <TEXT id="TextSC01UIScore" ttf="0" font="FontWhiteNISDS" text="" x="600" y="55" z="0"/>
+    <TEXT id="TextSC01UITime" ttf="0" font="FontWhiteNISDS" text="" x="1490" y="55" z="0"/>
+    <GRIDOBJECT id="GDSC01CPaper" x="973" y="750" z="550" rows="1" cols="2" TileSize="159" flags="0"/>
+    <GRIDOBJECT id="GDSC01CWaste" x="1152" y="750" z="550" rows="1" cols="2" TileSize="159" flags="0"/>
+    <GRIDOBJECT id="GDSC01CFood" x="1331" y="750" z="550" rows="1" cols="2" TileSize="159" flags="0"/>
+    <GRIDOBJECT id="GDSC01CIron" x="794" y="750" z="550" rows="1" cols="2" TileSize="159" flags="0"/>
+    <GRIDOBJECT id="GDSC01CGlass" x="615" y="750" z="550" rows="1" cols="2" TileSize="159" flags="0"/>
+    <GRIDOBJECT id="GDSC01CPlastic" x="436" y="750" z="550" rows="1" cols="2" TileSize="159" flags="0"/>
+    <COMMAND_LIST id="CLSC01Start">
+        <COMMAND id="LoadConfig" Sc="SC_01" xml="sc_01_config.xml"/>
+    </COMMAND_LIST>
+    <COMMAND_LIST id="CLSC01CPaper">
+        <COMMAND id="Message" type="MsgCPaper"/>
+    </COMMAND_LIST>
+    <COMMAND_LIST id="CLSC01CWaste">
+        <COMMAND id="Message" type="MsgCWaste"/>
+    </COMMAND_LIST>
+    <COMMAND_LIST id="CLSC01CFood">
+        <COMMAND id="Message" type="MsgCFood"/>
+    </COMMAND_LIST>
+    <COMMAND_LIST id="CLSC01CIron">
+        <COMMAND id="Message" type="MsgCIron"/>
+    </COMMAND_LIST>
+    <COMMAND_LIST id="CLSC01CGlass">
+        <COMMAND id="Message" type="MsgCGlass"/>
+    </COMMAND_LIST>
+    <COMMAND_LIST id="CLSC01CPlastic">
+        <COMMAND id="Message" type="MsgCPlastic"/>
+    </COMMAND_LIST>
+    <INTERACTION id="ISC01CPaper" Object="GDSC01CPaper" CLId="CLSC01CPaper"/>
+    <INTERACTION id="ISC01CWaste" Object="GDSC01CWaste" CLId="CLSC01CWaste"/>
+    <INTERACTION id="ISC01CFood" Object="GDSC01CFood" CLId="CLSC01CFood"/>
+    <INTERACTION id="ISC01CIron" Object="GDSC01CIron" CLId="CLSC01CIron"/>
+    <INTERACTION id="ISC01CGlass" Object="GDSC01CGlass" CLId="CLSC01CGlass"/>
+    <INTERACTION id="ISC01CPlastic" Object="GDSC01CPlastic" CLId="CLSC01CPlastic"/>
+    <START CLId="CLSC01Start" Sc="SC_01"/>
+    <SOUND id="SndSC01Incorrect" file="File: SndSC01Incorrect"/>
+    <SOUND id="SndSC01Correct" file="File: SndSC01Correct"/>
+    <SOUND id="SndSC01Chicken" file="File: SndSC01Chicken"/>
+    <SOUND id="SndSC01ContainerOpen" file="File: SndSC01Container"/>
+    <SOUND id="SndSC01ContainerClose" file="File: SndSC01Container"/>
+    <SOUND id="SndSC01Time" file="File: SndSC01Time"/>
+    <SOUND id="SndSC01Start" file="File: SndSC01Start"/>
+    <MUSIC file="MUSIC/SndMusicSC01.wav"/>
+</SCENE>

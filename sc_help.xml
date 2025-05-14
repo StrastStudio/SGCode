@@ -1,0 +1,111 @@
+<SCENE id="SC_HELP" put_prev="1">
+    <ADDPICTURE id="PicSCCMNFg" x="0" y="0"/>
+    <PICTURE id="PicSCHELPBg" x="0" y="0" z="900"/>
+    <PICTURE id="PicSCHELPGlow" x="0" y="0" z="1000"/>
+    <PICTURE id="PicSCHELPSC02Pic0" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSC02Pic1" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSC02Pic2" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSC02Pic3" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSCSETPic0" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSCSETPic1" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSCSETPic2" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSC01Pic0" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSC01Pic1" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSC01Pic2" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSCPAUSEPic0" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSCPAUSEPic1" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSCPAUSEPic2" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSCGAMEOVERPic0" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSCGAMEOVERPic1" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPSCGAMEOVERPic2" x="498" y="514" z="0"/>
+    <PICTURE id="PicSCHELPBtnPlayPass" x="890" y="237" z="0"/>
+    <PICTURE id="PicSCHELPBtnPlayHover" x="890" y="237" z="0"/>
+    <PICTURE id="PicSCHELPBtnPlayPress" x="890" y="246" z="0"/>
+    <PICTURE id="PicSCHELPBtnPlayDisabled" x="890" y="237" z="0"/>
+    <PICTURE id="PicSCHELPBtnStopPass" x="890" y="237" z="0"/>
+    <PICTURE id="PicSCHELPBtnStopHover" x="890" y="237" z="0"/>
+    <PICTURE id="PicSCHELPBtnStopPress" x="890" y="246" z="0"/>
+    <PICTURE id="PicSCHELPBtnNextPass" x="1074" y="205" z="0"/>
+    <PICTURE id="PicSCHELPBtnNextHover" x="1074" y="205" z="0"/>
+    <PICTURE id="PicSCHELPBtnNextPress" x="1074" y="214" z="0"/>
+    <PICTURE id="PicSCHELPBtnNextDisabled" x="1074" y="205" z="0"/>
+    <PICTURE id="PicSCHELPBtnBackPass" x="705" y="205" z="0"/>
+    <PICTURE id="PicSCHELPBtnBackHover" x="705" y="205" z="0"/>
+    <PICTURE id="PicSCHELPBtnBackPress" x="705" y="214" z="0"/>
+    <PICTURE id="PicSCHELPBtnBackDisabled" x="705" y="205" z="0"/>
+    <PICTURE id="PicSCHELPBtnCrossPass" x="1580" y="69" z="0"/>
+    <PICTURE id="PicSCHELPBtnCrossHover" x="1580" y="69" z="0"/>
+    <PICTURE id="PicSCHELPBtnCrossPress" x="1580" y="75" z="0"/>
+    <BUTTON id="BtnSCHELPPlay" soundH="SndHover" soundP="SndClick" soundI="SndInactive" tex="PicSCHELPBtnPlayPass" tex_hover="PicSCHELPBtnPlayHover" tex_press="PicSCHELPBtnPlayPress" tex_disable="PicSCHELPBtnPlayDisabled" cursor="CsrNormal"/>
+    <BUTTON id="BtnSCHELPStop" soundH="SndHover" soundP="SndClick" tex="PicSCHELPBtnStopPass" tex_hover="PicSCHELPBtnStopHover" tex_press="PicSCHELPBtnStopPress" cursor="CsrNormal"/>
+    <BUTTON id="BtnSCHELPNext" soundH="SndHover" soundP="SndClick" soundI="SndInactive" tex="PicSCHELPBtnNextPass" tex_hover="PicSCHELPBtnNextHover" tex_press="PicSCHELPBtnNextPress" tex_disable="PicSCHELPBtnNextDisabled" cursor="CsrNormal"/>
+    <BUTTON id="BtnSCHELPBack" soundH="SndHover" soundP="SndClick" soundI="SndInactive" tex="PicSCHELPBtnBackPass" tex_hover="PicSCHELPBtnBackHover" tex_press="PicSCHELPBtnBackPress" tex_disable="PicSCHELPBtnBackDisabled" cursor="CsrNormal"/>
+    <BUTTON id="BtnSCHELPCross" soundH="SndHover" soundP="SndClick" tex="PicSCHELPBtnCrossPass" tex_hover="PicSCHELPBtnCrossHover" tex_press="PicSCHELPBtnCrossPress" cursor="CsrNormal"/>
+    <SOUND id="SndSCHELPSC02HelpTalk000" file="File: TKSCHELPSC02Help000"/>
+    <SOUND id="SndSCHELPSC02HelpTalk001" file="File: TKSCHELPSC02Help001"/>
+    <SOUND id="SndSCHELPSC02HelpTalk002" file="File: TKSCHELPSC02Help002"/>
+    <SOUND id="SndSCHELPSC02HelpTalk003" file="File: TKSCHELPSC02Help003"/>
+    <SOUND id="SndSCHELPSCSETHelpTalk000" file="File: TKSCHELPSCSETHelp000"/>
+    <SOUND id="SndSCHELPSCSETHelpTalk001" file="File: TKSCHELPSCSETHelp001"/>
+    <SOUND id="SndSCHELPSCSETHelpTalk002" file="File: TKSCHELPSCSETHelp002"/>
+    <SOUND id="SndSCHELPSC01HelpTalk000" file="File: TKSCHELPSC01Help000"/>
+    <SOUND id="SndSCHELPSC01HelpTalk001" file="File: TKSCHELPSC01Help001"/>
+    <SOUND id="SndSCHELPSC01HelpTalk002" file="File: TKSCHELPSC01Help002"/>
+    <SOUND id="SndSCHELPSCPAUSEHelpTalk000" file="File: TKSCHELPSCPAUSEHelp000"/>
+    <SOUND id="SndSCHELPSCPAUSEHelpTalk001" file="File: TKSCHELPSCPAUSEHelp001"/>
+    <SOUND id="SndSCHELPSCPAUSEHelpTalk002" file="File: TKSCHELPSCPAUSEHelp002"/>
+    <SOUND id="SndSCHELPSCGAMEOVERHelpTalk000" file="File: TKSCHELPSCGAMEOVERHelp000"/>
+    <SOUND id="SndSCHELPSCGAMEOVERHelpTalk001" file="File: TKSCHELPSCGAMEOVERHelp001"/>
+    <SOUND id="SndSCHELPSCGAMEOVERHelpTalk002" file="File: TKSCHELPSCGAMEOVERHelp002"/>
+    <DIALOGCONTROLLER>
+        <DIALOGPART id="TKSCHELPSC02Help000" ani="" mov="">
+            <ITEM snd="SndSCHELPSC02HelpTalk000" text="Это кнопка выхода, нажми на неё и выйдешь из игры."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSC02Help001" ani="" mov="">
+            <ITEM snd="SndSCHELPSC02HelpTalk001" text="Нажми на эту кнопку, и узнаешь имена тех, кто создал эту замечательную игру!"/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSC02Help002" ani="" mov="">
+            <ITEM snd="SndSCHELPSC02HelpTalk002" text="Нажмёшь на эту кнопку - попадёшь в меню настроек."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSC02Help003" ani="" mov="">
+            <ITEM snd="SndSCHELPSC02HelpTalk003" text="Это кнопка играть, нажмёшь на неё - начнётся игра."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSCSETHelp000" ani="" mov="">
+            <ITEM snd="SndSCHELPSCSETHelpTalk000" text="Нажми на эту кнопку чтобы выйти из меню настроек."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSCSETHelp001" ani="" mov="">
+            <ITEM snd="SndSCHELPSCSETHelpTalk001" text="Двигай мышкой этот нижний ползунок чтобы менять громкость эффектов."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSCSETHelp002" ani="" mov="">
+            <ITEM snd="SndSCHELPSCSETHelpTalk002" text="Двигай мышкой этот верхний ползунок чтобы менять громкость музыки."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSC01Help000" ani="" mov="">
+            <ITEM snd="SndSCHELPSC01HelpTalk000" text="Это контейнеры в которые нужно сортировать мусор."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSC01Help001" ani="" mov="">
+            <ITEM snd="SndSCHELPSC01HelpTalk001" text="На конвейерной ленте едет мусор, нажатием левой кнопки мыши переноси его в контейнеры."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSC01Help002" ani="" mov="">
+            <ITEM snd="SndSCHELPSC01HelpTalk002" text="Когда ты выбрал мусор - нажимай левой кнопкой мыши по подходящему контейнеру чтобы отсортировать мусор."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSCPAUSEHelp000" ani="" mov="">
+            <ITEM snd="SndSCHELPSCPAUSEHelpTalk000" text="Нажав на эту кнопку - ты попадёшь в главное меню игры."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSCPAUSEHelp001" ani="" mov="">
+            <ITEM snd="SndSCHELPSCPAUSEHelpTalk001" text="Нажми на эту кнопку чтобы открыть настройки."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSCPAUSEHelp002" ani="" mov="">
+            <ITEM snd="SndSCHELPSCPAUSEHelpTalk002" text="Нажми на эту кнопку чтобы продолжить играть в эту замечательную игру."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSCGAMEOVERHelp000" ani="" mov="">
+            <ITEM snd="SndSCHELPSCGAMEOVERHelpTalk000" text="Это твой счёт за игру."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSCGAMEOVERHelp001" ani="" mov="">
+            <ITEM snd="SndSCHELPSCGAMEOVERHelpTalk001" text="Щёлкни на эту кнопку чтобы попасть в сцену главного меню."/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCHELPSCGAMEOVERHelp002" ani="" mov="">
+            <ITEM snd="SndSCHELPSCGAMEOVERHelpTalk002" text="Нажми на эту кнопку чтобы начать заново игру."/>
+        </DIALOGPART>
+    </DIALOGCONTROLLER>
+    <MUSIC file="MUSIC/SndMusicSCHELP.wav" title="Музыкальная паУза"/>
+</SCENE>

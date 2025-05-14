@@ -1,0 +1,25 @@
+<SCENE id="SC_EXIT" put_prev="1">
+    <PICTURE id="PicSCEXITBg" x="0" y="0" z="1000"/>
+    <PICTURE id="PicSCEXITBtnYesPass" x="1009" y="591" z="0"/>
+    <PICTURE id="PicSCEXITBtnYesHover" x="1009" y="591" z="0"/>
+    <PICTURE id="PicSCEXITBtnYesPress" x="1009" y="602" z="0"/>
+    <PICTURE id="PicSCEXITBtnNoPass" x="631" y="591" z="0"/>
+    <PICTURE id="PicSCEXITBtnNoHover" x="631" y="591" z="0"/>
+    <PICTURE id="PicSCEXITBtnNoPress" x="631" y="602" z="0"/>
+    <BUTTON id="BtnSCEXITYes" soundH="SndHover" soundP="SndClick" tex="PicSCEXITBtnYesPass" tex_hover="PicSCEXITBtnYesHover" tex_press="PicSCEXITBtnYesPress" cursor="CsrNormal"/>
+    <BUTTON id="BtnSCEXITNo" soundH="SndHover" soundP="SndClick" tex="PicSCEXITBtnNoPass" tex_hover="PicSCEXITBtnNoHover" tex_press="PicSCEXITBtnNoPress" cursor="CsrNormal"/>
+    <SOUND id="SndSCEXIT000" file="File: TKSCEXIT000"/>
+    <SOUND id="SndSCEXIT001" file="File: TKSCEXIT001"/>
+    <SOUND id="SndSCEXIT002" file="File: TKSCEXIT002"/>
+    <DIALOGCONTROLLER>
+        <DIALOGPART id="TKSCEXIT000" ani="" mov="">
+            <ITEM snd="SndSCEXIT000" text="Ты действительно хочешь выйти из игры?"/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCEXIT001" ani="" mov="">
+            <ITEM snd="SndSCEXIT001" text="Жаль. Но я знаю, ты обязательно вернешься!"/>
+        </DIALOGPART>
+        <DIALOGPART id="TKSCEXIT002" ani="" mov="">
+            <ITEM snd="SndSCEXIT002" text="Замечательно! Продолжаем сортировать мусор!"/>
+        </DIALOGPART>
+    </DIALOGCONTROLLER>
+</SCENE>

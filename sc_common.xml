@@ -1,0 +1,16 @@
+<SCENE id="SC_COMMON">
+    <PICTURE id="PicSCCMNFg" x="0" y="0" z="-10000"/>
+    <PICTURE id="PicSCCMNBtnHelpPass" x="1772" y="13" z="-5000"/>
+    <PICTURE id="PicSCCMNBtnHelpHover" x="1772" y="13" z="-5000"/>
+    <PICTURE id="PicSCCMNBtnHelpPress" x="1772" y="13" z="-5000"/>
+    <ANI id="ACsrNormal" x="0" y="0" z="0">
+        <STATIC id="SCsrNormalDef"/>
+        <MOVEMENT id="MVCsrNormalDef" speed="0.2" file="1"/>
+    </ANI>
+    <BUTTON id="BtnSCCMNHelp" soundH="SndHover" soundP="SndClick" tex="PicSCCMNBtnHelpPass" tex_hover="PicSCCMNBtnHelpHover" tex_press="PicSCCMNBtnHelpPress" cursor="CsrNormal"/>
+    <CURSOR id="CsrNormal" mov="ACsrNormal" offset="-12 -12"/>
+    <CURSOR id="CsrNormalWA" offset="3 3"/>
+    <SOUND id="SndClick" file="File: SndClick"/>
+    <SOUND id="SndHover" file="File: SndHover"/>
+    <SOUND id="SndInactive" file="File: SndInactive"/>
+</SCENE>

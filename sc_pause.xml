@@ -1,0 +1,19 @@
+<SCENE id="SC_PAUSE" put_prev="1">
+    <ADDPICTURE id="PicSCCMNFg" x="0" y="0"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpPass" x="1772" y="13"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpHover" x="1772" y="13"/>
+    <ADDPICTURE id="PicSCCMNBtnHelpPress" x="1772" y="13"/>
+    <PICTURE id="PicSCPAUSEBg" x="0" y="0" z="1000"/>
+    <PICTURE id="PicSCPAUSEBtnContinuePass" x="577" y="371" z="500"/>
+    <PICTURE id="PicSCPAUSEBtnContinueHover" x="577" y="371" z="500"/>
+    <PICTURE id="PicSCPAUSEBtnContinuePress" x="577" y="382" z="500"/>
+    <PICTURE id="PicSCPAUSEBtnSettingsPass" x="641" y="538" z="500"/>
+    <PICTURE id="PicSCPAUSEBtnSettingsHover" x="641" y="538" z="500"/>
+    <PICTURE id="PicSCPAUSEBtnSettingsPress" x="641" y="549" z="500"/>
+    <PICTURE id="PicSCPAUSEBtnMenuPass" x="759" y="704" z="500"/>
+    <PICTURE id="PicSCPAUSEBtnMenuHover" x="759" y="704" z="500"/>
+    <PICTURE id="PicSCPAUSEBtnMenuPress" x="759" y="715" z="500"/>
+    <BUTTON id="BtnSCPAUSEConfirm" soundH="SndHover" soundP="SndClick" tex="PicSCPAUSEBtnContinuePass" tex_hover="PicSCPAUSEBtnContinueHover" tex_press="PicSCPAUSEBtnContinuePress" cursor="CsrNormal"/>
+    <BUTTON id="BtnSCPAUSESettings" soundH="SndHover" soundP="SndClick" tex="PicSCPAUSEBtnSettingsPass" tex_hover="PicSCPAUSEBtnSettingsHover" tex_press="PicSCPAUSEBtnSettingsPress" cursor="CsrNormal"/>
+    <BUTTON id="BtnSCPAUSEMenu" soundH="SndHover" soundP="SndClick" tex="PicSCPAUSEBtnMenuPass" tex_hover="PicSCPAUSEBtnMenuHover" tex_press="PicSCPAUSEBtnMenuPress" cursor="CsrNormal"/>
+</SCENE>

@@ -1,0 +1,54 @@
+<CONFIG>
+    <RIBBON StartRS="1" StartGTD="1500" DiffRS="0.1" DiffGTD="20" GarbageZ="855"/>
+    <!-- Параметры ленты. -->
+    <!-- StartRS - Изначальная скорость ленты. -->
+    <!-- StartGTD - Изначальное время спавна мусора. -->
+    <!-- DiffRS - Разница с предыдущий скоростью ленты после спавна мусора. -->
+    <!-- DiffGTD - Разница с предыдущий задержкой таймера после спавна мусора. -->
+    <!-- GarbageZ - Координата Z мусора когда он едет по ленте. -->
+
+    <GARBAGE id="PicSC01Garbage1" type="Стекло"/>
+    <GARBAGE id="PicSC01Garbage2" type="Стекло"/>
+    <GARBAGE id="PicSC01Garbage3" type="Еда"/>
+    <GARBAGE id="PicSC01Garbage4" type="Еда"/>
+    <GARBAGE id="PicSC01Garbage5" type="Еда"/>
+    <GARBAGE id="PicSC01Garbage6" type="Пластик"/>
+    <GARBAGE id="PicSC01Garbage7" type="Пластик"/>
+    <GARBAGE id="PicSC01Garbage8" type="Пластик"/>
+    <GARBAGE id="PicSC01Garbage9" type="Пластик"/>
+    <GARBAGE id="PicSC01Garbage10" type="Бумага"/>
+    <GARBAGE id="PicSC01Garbage11" type="Бумага"/>
+    <GARBAGE id="PicSC01Garbage12" type="Бумага"/>
+    <GARBAGE id="PicSC01Garbage13" type="Бумага"/>
+    <GARBAGE id="PicSC01Garbage14" type="Металл"/>
+    <GARBAGE id="PicSC01Garbage15" type="Металл"/>
+    <GARBAGE id="PicSC01Garbage16" type="Металл"/>
+    <GARBAGE id="PicSC01Garbage17" type="Отходы"/>
+    <GARBAGE id="PicSC01Garbage18" type="Отходы"/>
+    <GARBAGE id="PicSC01Garbage19" type="Отходы"/>
+    <GARBAGE id="PicSC01Garbage20" type="Отходы"/>
+    <GARBAGE id="PicSC01Garbage21" type="Курица"/>
+    <!-- Параметры мусора. -->
+    <!-- id - Id Картинки. -->
+    <!-- type - Тип мусора. -->
+
+    <CONTAINER id="ASC01ContainerPaper" type="Бумага" msg="MsgCPaper"/>
+    <CONTAINER id="ASC01ContainerWaste" type="Отходы" msg="MsgCWaste"/>
+    <CONTAINER id="ASC01ContainerFood" type="Еда" msg="MsgCFood"/>
+    <CONTAINER id="ASC01ContainerIron" type="Металл" msg="MsgCIron"/>
+    <CONTAINER id="ASC01ContainerGlass" type="Стекло" msg="MsgCGlass"/>
+    <CONTAINER id="ASC01ContainerPlastic" type="Пластик" msg="MsgCPlastic"/>
+    <!-- Параметры контейнеров. -->
+    <!-- id - Id Контейнера. -->
+    <!-- type - Тип мусора. -->
+    <!-- msg - Сообщение которое относится к контейнеру. -->
+
+    <MESSAGES list="MsgCPaper MsgCWaste MsgCFood MsgCIron MsgCGlass MsgCPlastic"/>
+    <!-- Список сообщений которые отвечают за клик по контейнеру. -->
+    <!-- list - Список сообщений. -->
+
+    <TIMERS StartTime="3" LvTime="60"/>
+    <!-- Значения времени для всех таймеров. -->
+    <!-- StartTime - Время перед началом игры. -->
+    <!-- LvTime - Время на игру. -->
+</CONFIG>
